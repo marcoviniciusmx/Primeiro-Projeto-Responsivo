@@ -1,0 +1,297 @@
+/* * {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    margin: 44px 0 144px 76px;
+}
+
+.link-nav {
+    margin-right: 23px;
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.link-nav:hover {
+    text-decoration: underline;
+}
+
+.principal {
+    margin-left: 85px;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+}
+
+.button-nav {
+    background: #665AE1;
+    border-radius: 22px;
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #8A8A8A;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-content {
+    background: #665AE1;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0.25));
+    line-height: 34px;
+} */
+
+
+
+
+/* Desafio 1 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-nav {
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 100%;
+    color: #17233D;
+    cursor: pointer;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+    text-align: center;
+}
+
+.link-nav:hover {
+    text-decoration: underline;
+}
+
+.button-nav {
+    background: #6FBF44;
+    color: #FFF;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    cursor: pointer;
+}
+
+.logo-image {
+    display: inline-block;
+    margin: 163px 0 0 123px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+}
+
+.paragraph {
+    width: 493px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+}
+
+.link-main {
+    text-decoration: none;
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+
+    header {
+        display: block;
+    }
+
+    .nav {
+        margin: 20px;
+    }
+
+    .link-nav {
+        display: none;
+    }
+
+      section {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 40px;
+        width: 30%;
+        margin: 20px 20px 0 70px;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        line-height: 20px;
+        width: 30%;
+        margin: 0 20px 20px 70px;
+    }
+
+    .link-main {
+        font-size: 12px;
+        width: calc(100% - 90%);
+        position: relative;
+        right: 26%;
+    }
+
+    .logo-image {
+        display: block;
+        width: 40%;
+        height: 300px;
+        margin: 70px 20px 20px 30px;
+    }
+
+
+    .button-nav {
+        width: 10%;
+        height: 20%;
+        font-size: 12px;
+        position: relative;
+        left: 36%;
+    }
+
+  
+}
+
+@media screen and (max-width: 1430px) {
+    body {
+        width: 100vw;
+        height: auto
+    }
+
+    header {
+        display: block;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .link-nav {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section {
+        display: block;
+    }
+
+    .title {
+        position: relative;
+        left: 20vw;
+        margin-top: 100px;
+        font-size: 100px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .paragraph {
+        position: relative;
+        left: 25%;
+        padding-top: 100px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .link-main {
+        position: relative;
+        left: 44%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .logo-image {
+        position: relative;
+        left: 12%;
+        width: 60%;
+        height: 60%;
+        margin-bottom: 50px;
+    }
+
+}

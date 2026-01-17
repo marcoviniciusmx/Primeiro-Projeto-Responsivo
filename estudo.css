@@ -1,0 +1,207 @@
+ /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ h1 {
+        color: red;
+        background: black;
+    }
+
+    p {
+        color: blue;
+        font-size: 20px;
+    }
+
+    button {
+        color: green;
+        border-color: darkgreen;
+    } */
+
+    /* #titulo {
+        color: red;
+        font-size: 55px;
+    }
+
+    #paragrafo {
+        color: blue;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #botao {
+        background: green;
+    }
+
+    #outro-botao {
+        background: chocolate
+    } */
+
+    /* .titulo {
+        color: red;
+        font-size: 55px;
+    }
+
+    .botao {
+        background: green;
+    }
+
+    .outro-botao {
+        background: chocolate
+    } */
+
+
+
+
+
+
+    /*
+    Unidades de medida
+
+    Absolutas:
+
+    1 polegada = 2,54 cm
+    px - pixels
+    in - inches/polegadas
+    cm / mm - centimetros / milimetros
+
+
+
+    Relativas:
+
+    % - calcula o tamanho em relacao ao elemento pai
+    vw (viewport width) - 1vh = 1% da largura da janela do navegador (100 é a largura total)
+    vh (viewport height) - 1vh = 1% da altura da janela do navegador (100 é a altura total)
+    em (ephemeral unit) - é uma unidade relativa ao elemento pai
+    rem (root em) - é uma unidade ralativa ao elemento raiz
+    */
+
+    /* .avo {
+        width: 32px;
+        font-size: 16px;
+    }
+
+    .pai {
+        width: 400px;
+        height: 400px;
+        background: red;
+        font-size: 2em; em relação ao pai
+        font-size: 2rem; em relacao ao elemento raiz
+    }
+
+    .flho {
+        width: 50%;
+        height: 50%;
+        background: green;
+        font-size: 2rem;
+    } */
+
+
+
+
+
+    /* div {
+        font-weight: 100; Define a largura da fonte
+
+        text-shadow: 5px 5px 10px #00FF00;  Coloca uma sombra na fonte,
+        onde o primeiro valor define o deslocamento horizontal, o segundo
+        define o deslocamento vertical, o terceiro define a sombra e o quarto a cor
+
+        text-transform: uppercase;  Tranforma o texto em maiusculo, minusculo ou
+        capitalizado (primeira letra  de todas as palavras maiuscula)
+
+        font-style: italic;  Define o estilo da fonte
+
+        font-family: 'Times New Roman', Times, serif;  Define a familia da fonte
+
+        text-decoration: underline;  Adiciona uma decoracao ao texto,
+        como underline, line-through (linha no meio do texto) ou overline (linha em cima do texto)
+
+        line-height: 50px;  Define a altura da linha do texto
+
+        letter-spacing: 20px;  Define o espaçamento entre as letras
+
+        word-spacing: 20px;  Define o espaçamento entre as palavras
+    } */
+
+
+
+
+
+    /* .box {
+        margin: 10px 15px 20px 25px;  top right bottom left
+                12h  15h  18h  21h
+
+        padding: 10px   15px    25px;  top right and left bottom
+                 12h   15h-21h  18h
+    } */
+
+
+
+
+
+
+
+    /* .box {
+        width: 200px;
+        height: 200px;
+        background: red;
+        padding: 20px;
+        border: 10px solid black;
+        box-sizing: border-box;  Inclui a borda e o padding na largura
+        e altura totais do elemento, sem aumentar a width e height previamente
+        definidos.
+    }
+    */
+
+
+
+
+
+    /* .box {
+        width: 50px;
+        height: 50px;
+        background: red;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .box-2 {
+        background-color: yellow;
+    }
+
+    .box-3 {
+        background-color: blue;
+    } */
+
+/* - BLOCK
+    Vem como padrão: div, h1, p, etc.
+
+    - Ocupa 100% da largura do elemento pai
+    - Sempre ocupa toda a sua linha
+    - Altura definida de acordo com o seu conteúdo
+    - Podemos definir hight e width
+    - Podemos definir margin e padding
+
+
+    - INLINE
+    Vem como padrão: span, a, strong, etc.
+
+    - Elementos em linha
+    - Não permite alterar height e width
+    - Não podemos definir margin top e bottom
+    - Ganha comportamento de uma palavra
+
+
+
+    - INLINE-BLOCK
+
+    - Elementos em linha, porém com características do display Block
+    - Altura e largura podem ser alterados
+*/
+
+
+
+
+
