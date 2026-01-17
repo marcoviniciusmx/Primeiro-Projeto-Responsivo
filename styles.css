@@ -111,7 +111,7 @@
     line-height: 100%;
     color: #17233D;
     cursor: pointer;
-    letter-spacing: 0.88px;
+    letter-spacing: .88px;
     margin-right: 32px;
     text-align: center;
 }
@@ -144,7 +144,7 @@ section {
     font-weight: 700;
     font-size: 62px;
     line-height: 82px;
-    letter-spacing: 0.6px;
+    letter-spacing: .6px;
     width: 582px;
     height: 164px;
     color: #161A49;
@@ -157,7 +157,7 @@ section {
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
     color: #4B505A;
 }
 
